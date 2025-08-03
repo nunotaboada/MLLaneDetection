@@ -104,7 +104,7 @@ class UNET(nn.Module):
 
 ## Model Visualization
 
-[![Model Visualization](https://img.shields.io/badge/Model_Visualization-Netron-blue?style=plastic)](https://github.com/SEAME-pt/T07-ADS_Lane-Detection/blob/24---lane-detection-ML/U-net/assets/model.onnx.svg)
+[![Model Visualization](https://img.shields.io/badge/Model_Visualization-Netron-blue?style=plastic)](https://github.com/nunotaboada/MLLaneDetection/blob/master/MLLaneDetection/assets/model.onnx.svg)
 
 
 The U-Net model architecture has been visualized using Netron, a tool for inspecting neural network graphs. The model was exported to ONNX format (model_graph.onnx) and loaded into Netron to generate a detailed graph of the network's layers, connections, and parameters. This visualization aids in understanding the flow of data through the encoder-decoder structure and skip connections.
@@ -162,7 +162,7 @@ class DiceLoss(nn.Module):
 
 
 ![Results Preview](./MLLaneDetection/saved_images/combined_epoch9_batch20.png)  
-*Input | Binary Prediction | Raw Prediction*
+*Input | Ground Truth Mask | Predicted Mask*
 
 
 ---
